@@ -11,4 +11,7 @@ jobs:
               run: echo "Hello Suneetha"
 
             - name: Display the date
-              run: date  
+              run: date
+            
+            - name: Display files
+              run: ls  
