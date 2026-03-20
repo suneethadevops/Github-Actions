@@ -8,7 +8,7 @@ jobs:
 
         steps:
             - name: Hello display
-              run; echo "Hello Suneetha"
+              run: echo "Hello Suneetha"
 
             - name: Display the date
               run: date  
