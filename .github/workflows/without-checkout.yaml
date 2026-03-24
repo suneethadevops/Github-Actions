@@ -1,0 +1,17 @@
+name: validating workflow without ckekout
+  
+on: push
+ 
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+           
+
+            - name: Display the content of file
+              run: cat devops.txt
+              
+            - name: display the date
+              run: date
+              
+            
